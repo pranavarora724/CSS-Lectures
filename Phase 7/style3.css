@@ -1,0 +1,40 @@
+.container{
+    display: grid;
+    height: 100%;
+    background-color: aquamarine;
+    gap: 1rem;
+    padding: 10px;
+
+    grid-template-areas: 
+    "header header header"
+    "sidebar content1 content1"
+    "sidebar content2 content3"
+    "footer footer footer"
+    ;
+}
+
+
+.item{
+    border: 2px solid red;
+    background-color: blue;
+    color: white;
+}
+
+#header{
+    grid-area: header;
+}
+#footer{
+    grid-area: footer;
+}
+#sidebar{
+    grid-area: sidebar;
+}
+#content1{
+    grid-area: content1;
+}
+#content2{
+    grid-area: content2;
+}
+#content3{
+    grid-area: content3;
+}

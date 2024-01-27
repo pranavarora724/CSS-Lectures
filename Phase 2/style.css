@@ -1,0 +1,43 @@
+#nav{
+    background-color: black;
+    border: 5px solid white;
+    height: 60px;
+}
+.para{
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+button{
+    background-color: orangered ;
+     color: wheat;
+}
+.logo{
+    font-size: 25px;
+    color: orangered;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 10px;
+}
+.content{
+    height: 400px;
+}
+
+#box1{
+    background-color: rgba(0, 0, 255, 1);
+}
+#box2{
+    background-color: rgba(0, 0, 255, .5);
+}
+#box3{
+    background-color: rgba(0, 0, 255, .75);
+}
+
+footer{
+    background-color: black;
+    color: white;
+}

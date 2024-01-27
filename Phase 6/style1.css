@@ -1,0 +1,20 @@
+.container{
+    margin:auto;
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+
+  transition: all;
+  transition-duration: 3s;
+  transition-timing-function: ease-in;
+}
+
+.container:hover{
+    background-color: azure;
+    width: 300px;
+    height: 300px;
+
+    box-shadow: 5px 5px 5px black;
+
+    transform: rotate(20deg);
+}

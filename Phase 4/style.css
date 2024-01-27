@@ -1,0 +1,36 @@
+.parent{
+    height: 400px;
+    background-color: rgb(156, 252, 255);
+
+    display: flex;
+}
+
+.text{
+    height: 200px;
+    width: 200px;
+}
+
+.image{
+    height:80px;
+    width: 150px;
+    border: 2px solid black;
+    background-image: url(chatbot.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+
+    background-color: chocolate;
+}
+
+@media(max-width:640px)
+{
+  .parent{
+    flex-direction: column;
+  }  
+}
+

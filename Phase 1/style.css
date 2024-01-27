@@ -1,0 +1,14 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#topHeading{
+    text-align: center;
+    text-transform: capitalize;
+}
+#outer{
+size: 25px;
+}
+#inner{
+size: 10px;
+}

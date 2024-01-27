@@ -1,0 +1,93 @@
+.container{
+    height: 90vh;
+    width: 90vw;
+
+    background-color: beige;
+  border: 2px solid black;
+}
+
+.box{
+    width: 300px;
+    height: 100px;
+
+    background-color: chocolate;
+    border-radius: 10px;
+    position: absolute;
+
+    box-shadow: 5px 5px 5px brown;
+
+}
+
+#box1{
+  animation-name: sliding;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sliding{
+  from{
+    top: 20px;
+    left:20px;
+  }
+  to{
+    top: 20px;
+    left: 1000px;
+  }
+}
+
+#box2{
+  animation-name: sliding2;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sliding2{
+  from{
+    top: 520px;
+    left:1000px;
+  }
+  to{
+    top: 520px;
+    left: 20px;
+  }
+}
+
+.circle{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: burlywood;
+  position: absolute;
+
+  box-shadow: .8px .8px 5px 5px brown;
+  top:275px;
+  left:600px;
+
+  animation-name:ball;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes ball{
+  from{
+    top:275px;
+    left:600px;
+  }
+  35%{
+    top:120px;
+    left:600px;
+  }
+ 
+  65%{
+    top:420px;
+    left:600px;
+  }
+  to{
+    top:120px;
+    left:600px;
+  }
+}

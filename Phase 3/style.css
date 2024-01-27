@@ -1,0 +1,10 @@
+.chat{
+    width: 100px;
+    height: 100px;
+    background-image: url(chatbot.png);
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+    position: fixed;
+    right: 0px;
+}
